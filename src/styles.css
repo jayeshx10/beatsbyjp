@@ -1,0 +1,53 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #d3d3d3;
+}
+
+span {
+  color: red;
+}
+
+p {
+  font-weight: 600;
+}
+
+.btn {
+  height: 2rem;
+  width: 4.3rem;
+  margin: 0 0.7rem;
+  text-align: center;
+  background-color: red;
+  color: white;
+  border-radius: 0.3rem;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transition: all 100ms;
+  transform: scale(1.2);
+  color: black;
+  border: 0.2rem solid black;
+}
+
+li {
+  border: 1px dotted black;
+  list-style-type: none;
+  height: 15vh;
+  width: 60vw;
+  margin: 0.6rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.music-name {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
